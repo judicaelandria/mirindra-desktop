@@ -19,7 +19,7 @@ The Mac build runs on Apple silicon and Intel. Windows is 64-bit.
 
 The first time you open the app, the computer asks you to confirm it. It is not signed by Apple, and it has no Windows certificate.
 
-- On a Mac: Réglages Système → Confidentialité et sécurité → Ouvrir quand même.
+- On a Mac, the dialog says “Mirindra” Not Opened and offers Move to Trash. Click Done. Then Réglages Système → Confidentialité et sécurité → Ouvrir quand même.
 - On Windows: Informations complémentaires → Exécuter quand même.
 
 ## This repository
@@ -30,9 +30,9 @@ It holds the installers. The source of the app is not here.
 
 | File | What it is |
 | --- | --- |
-| `Mirindra-<version>-mac.dmg` | The Mac installer |
-| `Mirindra-<version>-mac.zip` | The Mac update |
-| `Mirindra-<version>-windows.exe` | The Windows installer and update |
+| `mirindra.dmg` | The Mac installer |
+| `mirindra.zip` | The Mac update |
+| `mirindra.exe` | The Windows installer and update |
 | `latest-mac.yml`, `latest.yml` | Which file is current |
 
 Until a release is published, those links have nothing to serve.
